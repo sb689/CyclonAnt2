@@ -1506,7 +1506,7 @@ def main():
 
 
 if __name__ == '__main__':
-    fsock = open("E:\\UIU_MSC\\bioInformatics\\GenomeAssembly\\aco_peptide\\output.txt", 'w')
+    fsock = open("E:\\bioInformatics\\aco_peptide\\output.txt", 'w')
     saveout = sys.stdout
     sys.stdout = fsock
     start = datetime.datetime.now()
